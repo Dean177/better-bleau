@@ -1,5 +1,3 @@
-/* ToDo port inline css here */
-
 .tick-label-container .text-line {
   text-transform: capitalize;
 }
@@ -133,7 +131,7 @@
 }
 
 .plottable .label text {
-  fill: #32313F;
+  fill: #32313f;
 }
 
 .plottable .bar-label-text-area text,
@@ -142,7 +140,7 @@
 }
 
 .plottable .label-area text {
-  fill: #32313F;
+  fill: #32313f;
   font-size: 14px;
 }
 
@@ -151,15 +149,15 @@
 }
 
 .plottable .dark-label text {
-  fill: #32313F;
+  fill: #32313f;
 }
 
 .plottable .off-bar-label text {
-  fill: #32313F;
+  fill: #32313f;
 }
 
 .plottable .stacked-bar-label text {
-  fill: #32313F;
+  fill: #32313f;
   font-style: normal;
 }
 
@@ -182,17 +180,17 @@
 }
 
 .plottable .axis line.baseline {
-  stroke: #CCC;
+  stroke: #ccc;
   stroke-width: 1px;
 }
 
 .plottable .axis line.tick-mark {
-  stroke: #CCC;
+  stroke: #ccc;
   stroke-width: 1px;
 }
 
 .plottable .axis text {
-  fill: #32313F;
+  fill: #32313f;
   font-size: 12px;
   font-weight: 200;
   line-height: normal;
@@ -201,16 +199,16 @@
 .plottable .axis .annotation-circle {
   fill: white;
   stroke-width: 1px;
-  stroke: #CCC;
+  stroke: #ccc;
 }
 
 .plottable .axis .annotation-line {
-  stroke: #CCC;
+  stroke: #ccc;
   stroke-width: 1px;
 }
 
 .plottable .axis .annotation-rect {
-  stroke: #CCC;
+  stroke: #ccc;
   stroke-width: 1px;
   fill: white;
 }
@@ -220,7 +218,7 @@
 }
 
 .plottable .gridlines line {
-  stroke: #3C3C3C; /* hackhack: gridlines should be solid; see #820 */
+  stroke: #3c3c3c; /* hackhack: gridlines should be solid; see #820 */
   opacity: 0.25;
   stroke-width: 1px;
 }
@@ -228,7 +226,7 @@
 .plottable .selection-box-layer .selection-area {
   fill: black;
   fill-opacity: 0.03;
-  stroke: #CCC;
+  stroke: #ccc;
 }
 /* DragBoxLayer */
 .plottable .drag-box-layer.x-resizable .drag-edge-lr {
@@ -266,7 +264,7 @@
 /* /DragBoxLayer */
 
 .plottable .guide-line-layer line.guide-line {
-  stroke: #CCC;
+  stroke: #ccc;
   stroke-width: 1px;
 }
 
@@ -279,7 +277,7 @@
 }
 
 .plottable .legend text {
-  fill: #32313F;
+  fill: #32313f;
   font-size: 12px;
   font-weight: bold;
   line-height: normal;
@@ -287,13 +285,13 @@
 
 .plottable .interpolated-color-legend rect.swatch-bounding-box {
   fill: none;
-  stroke: #CCC;
+  stroke: #ccc;
   stroke-width: 1px;
   pointer-events: none;
 }
 
 .plottable .waterfall-plot line.connector {
-  stroke: #CCC;
+  stroke: #ccc;
   stroke-width: 1px;
 }
 
