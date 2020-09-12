@@ -14,7 +14,8 @@ const app = express()
 app.use('*', async (request, response, next) => {
   const url = `https://bleau.info${request.originalUrl}`
   const bleauResponse = await axios.get(url)
-  if (bleauResponse.headers['content-type']?.includes('text/html')) {
+  const contentType = bleauResponse.headers['content-type'] || ''
+  if (contentType.includes('text/html')) {
     const $ = cheerio.load(bleauResponse.data)
     $('body').append(content)
     response.send($.html())
